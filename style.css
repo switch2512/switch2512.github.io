@@ -1,9 +1,16 @@
 h1 {
     font-size: 50px;
-    color: black;
+    color: limegreen;
     text-align: center;
+    background-color: black;
+    opacity: .5;
+
 }
 
 td {
     border: 4px;
+}
+
+body {
+    background-image: url("https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26")
 }
