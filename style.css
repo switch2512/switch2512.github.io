@@ -22,8 +22,8 @@ h1 {
 }
 
 .nav a:hover {
-    background-color: #ddd;
-    color: lime;
+    background-color:lime;
+    color:black;
 }
 
 body {
