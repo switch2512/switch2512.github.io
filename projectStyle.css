@@ -33,3 +33,7 @@ p {
 img {
     align-items: center;
 }
+
+footer {
+    padding-bottom: 10px;
+}
