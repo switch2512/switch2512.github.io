@@ -2,12 +2,12 @@ h1 {
     font-size: 50px;
     color: limegreen;
     text-align: center;
-    background-color: black;
     opacity: .8;
 }
 
 span {
     border: 2px black solid;
+    background-color: black;
 }
 
 .nav {
