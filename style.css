@@ -4,8 +4,7 @@ h1 {
     text-align: center;
     background-color: black;
     opacity: .8;
-    padding-left: 10%;
-    padding-right: 10%;
+    display: inline;
 }
 
 .nav {
