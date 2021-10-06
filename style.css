@@ -3,3 +3,7 @@ h1 {
     color: black;
     text-align: center;
 }
+
+td {
+    border: 4px;
+}
