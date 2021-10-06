@@ -4,7 +4,10 @@ h1 {
     text-align: center;
     background-color: black;
     opacity: .8;
-    display: inline;
+}
+
+span {
+    border: 2px black solid;
 }
 
 .nav {
