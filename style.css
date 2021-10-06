@@ -4,8 +4,8 @@ h1 {
     text-align: center;
     background-color: black;
     opacity: .8;
-    background-size: 100px;
-    background-repeat: no-repeat;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .nav {
