@@ -30,6 +30,7 @@ span {
 }
 
 body {
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26")
 }
