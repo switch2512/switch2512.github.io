@@ -1,12 +1,37 @@
 h1 {
     font-size: 50px;
-    color: blue;
+    color: limegreen;
     text-align: center;
     padding: 10px;
 }
 
-html {
-    background-image: url("https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat: no-repeat;
+span {
+    border: 2px black solid;
+    background-color: black;
+}
+
+.nav {
+    background-color: black;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.nav a {
+    float: left;
+    color: lime;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color:lime;
+    color:black;
+}
+
+body {
     background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://preview.redd.it/al0schdiybk51.jpg?width=1920&format=pjpg&auto=webp&s=593106abe87ade6faafaa7c68953981d929cad26")
 }
