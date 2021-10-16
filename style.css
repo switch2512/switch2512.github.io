@@ -1,0 +1,19 @@
+.nav {
+    background-color: black;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.nav a {
+    float: left;
+    color: lime;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color:lime;
+    color:black;
+}
