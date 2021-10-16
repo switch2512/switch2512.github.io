@@ -1,3 +1,14 @@
+header {
+    background-image: url(https://i.ytimg.com/vi/TzaKxCAC5D4/maxresdefault.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
 .nav {
     background-color: white;
     overflow: hidden;
