@@ -7,7 +7,7 @@ header {
     background-image: url(https://cdn.abcotvs.com/dip/images/3822653_072518-cc-ss-beach-water-img.jpg?w=1600);
     background-size: cover;
     overflow: hidden;
-    height: 320px;
+    height: 200px;
 }
 
 h1 {
@@ -19,7 +19,8 @@ h1 {
     background-color: white;
     overflow: hidden;
     background-size: contain;
-    opacity: .5;
+    opacity: .80;
+    margin-top: 75px;
 }
 
 .nav a {
