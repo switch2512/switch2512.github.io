@@ -44,10 +44,11 @@ div img {
     float: left;
     height: 100px;
     margin-left: 10%;
+    position: relative;
+    top: 20px;
 }
 
 div img:hover {
     background-image: url("diploma.jpg");
     background-size: contain;
-    opacity: 0;
 }
