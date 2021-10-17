@@ -44,5 +44,10 @@ div img {
     float: left;
     height: 100px;
     margin-left: 10%;
-    background-image: url("diploma.jpg")
+}
+
+div img:hover {
+    background-image: url("diploma.jpg");
+    background-size: contain;
+
 }
