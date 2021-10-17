@@ -49,5 +49,5 @@ div img {
 div img:hover {
     background-image: url("diploma.jpg");
     background-size: contain;
-
+    opacity: 1;
 }
