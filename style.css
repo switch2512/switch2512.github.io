@@ -40,9 +40,9 @@ h1 {
     color: white;
 }
 
-header img {
+div img {
     float: left;
     height: 100px;
-    margin-left: 25%;
+    margin-left: 10%;
     background-image: url("diploma.jpg")
 }
