@@ -26,6 +26,7 @@ h1 {
     background-size: contain;
     opacity: .80;
     margin-top: 150px;
+    position: sticky;
 }
 
 .nav a {
