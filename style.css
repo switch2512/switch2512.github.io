@@ -40,9 +40,17 @@ h1 {
     color: white;
 }
 
+.education {
+    border: 10px solid turquoise;
+    min-width: 500px;
+    min-height: 100px;
+    outline: 10px solid burlywood;
+    margin: 1%;
+}
+
 .sdsu {
     width: 20%;
-    margin: auto;
+    margin: 2.5%;
 }
 
 .sdsu:hover {
@@ -50,25 +58,8 @@ h1 {
     background-size: contain;
 }
 
-h1 {
-    text-align: center;
-    height: 152px;
-}
-
-.education {
-    border-style: solid;
-    border-color: turquoise;
-    border-width: 10px;
-    margin: 20px;
-}
-
-.ed_description {
-    display: inline-block;
-    width: 50%;
-    margin: 5%;
-    width: 60%;
-}
-
 p {
     float: right;
+    width: 60%;
+    margin: 2.5%;
 }
