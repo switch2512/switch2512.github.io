@@ -16,6 +16,7 @@ h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 100px;
     position: relative;
+	text-align: center;
 }
 
 .nav {
@@ -23,7 +24,7 @@ h1 {
     overflow: hidden;
     background-size: contain;
     opacity: .80;
-    margin-bottom: 0px;
+	margin-top: 19.2px;
 }
 
 .nav a {
@@ -40,15 +41,38 @@ h1 {
     color: white;
 }
 
-.education {
-    border: 10px solid turquoise;
-    min-width: 500px;
-    min-height: 100px;
-    outline: 10px solid burlywood;
-    margin: 1%;
+.welcome {
+	text-align: left;
+	font-size: 28px;
+	color: black;
+	margin: 15px;
 }
 
-.sdsu {
+.welcomeBar {
+    min-width: 500px;
+    min-height: 150px;
+    margin: 2%;
+	margin-bottom: 3%;
+}
+
+#aboutMe {
+	border: 10px solid turquoise;
+	outline: 10px solid burlywood;
+	min-height: 210px;
+}
+
+#education {
+    border: 10px solid red;
+	outline: 10px solid black;
+}
+
+.pictureRight {
+	width: 20%;
+	margin: 2.5%;
+	float: right;
+}
+
+.pictureLeft {
     width: 20%;
     margin: 2.5%;
 }
@@ -58,8 +82,15 @@ h1 {
     background-size: contain;
 }
 
-p {
+.descriptionRight {
     float: right;
-    width: 60%;
+    width: 65%;
     margin: 2.5%;
+	font-size: 1.5vw;
+}
+
+.descriptionLeft {
+	width: 65%;
+	margin: 2.5%;
+	font-size: 1.5vw;
 }
