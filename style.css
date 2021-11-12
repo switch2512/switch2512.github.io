@@ -41,57 +41,39 @@ h1 {
     color: white;
 }
 
-.welcome {
-	text-align: left;
-	font-size: 28px;
-	color: black;
-	margin: 15px;
+h2 {
+    margin: 1em;
 }
 
-.welcomeBar {
-    min-width: 500px;
-    min-height: 150px;
-    margin: 2%;
-	margin-bottom: 3%;
+.gridWrapper * {
+    margin: 5%;
+    outline: 5px solid burlywood;
 }
 
-#aboutMe {
-	border: 10px solid turquoise;
-	outline: 10px solid burlywood;
-	min-height: 210px;
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 250px;
+    place-items: center;
 }
 
-#education {
-    border: 10px solid red;
-	outline: 10px solid black;
+.gridPics {
+    height: 100%;
+    margin: 0px;
+    
+    
 }
 
-.pictureRight {
-	width: 20%;
-	margin: 2.5%;
-	float: right;
-	max-height: 170px;
+.gridTextBox {
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/san-diego-skyline-s-greg-panosian.jpg");
+    margin: 0px;
+    height: 100%
 }
 
-.pictureLeft {
-    width: 20%;
-    margin: 2.5%;
-}
-
-.sdsu:hover {
-    background-image: url("diploma.jpg");
-    background-size: contain;
-}
-
-.descriptionRight {
-    float: right;
-    width: 65%;
-    margin: 2.5%;
-	font-size: 1.5vw;
-}
-
-.descriptionLeft {
-	width: 65%;
-	margin: 2.5%;
-	font-size: 1.5vw;
+.gridText {
+    background: rgba(255, 255, 255, 0.75);
+    height: 59%;
+    padding: .5em;
+    top: 50%;
+    font-size: 1.5vw;
 }
