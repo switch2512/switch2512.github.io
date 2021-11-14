@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: url(https://cdn.abcotvs.com/dip/images/3822653_072518-cc-ss-beach-water-img.jpg?w=1600);
+    background-color: #CCBBB0;
     background-size: cover;
     overflow: hidden;
     height: 200px;
@@ -40,35 +40,7 @@ h1 {
     color: white;
 }
 
-.sdsu {
-    width: 20%;
-    margin: auto;
-}
-
-.sdsu:hover {
-    background-image: url("diploma.jpg");
-    background-size: contain;
-}
-
 h1 {
     text-align: center;
     height: 152px;
-}
-
-.education {
-    border-style: solid;
-    border-color: turquoise;
-    border-width: 10px;
-    margin: 20px;
-}
-
-.ed_description {
-    display: inline-block;
-    width: 50%;
-    margin: 5%;
-    width: 60%;
-}
-
-p {
-    float: right;
 }
