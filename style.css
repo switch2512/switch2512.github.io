@@ -20,7 +20,13 @@ header {
     margin-top: 2%;
     outline: 7px solid rgba(255,255,255, .5);
     outline-offset: -7px;
-    background-image: 
+    background-image: url(Linkedin\ Profile.jfif);
+    background-size: contain;
+
+}
+
+.profile:hover {
+    background-image: url(linkedin-logo.png), url(Linkedin\ Profile.jfif);
 }
 
 h1 {
