@@ -20,6 +20,7 @@ header {
     margin-top: 2%;
     outline: 7px solid rgba(255,255,255, .5);
     outline-offset: -7px;
+    background-image: 
 }
 
 h1 {
@@ -72,4 +73,6 @@ h2 {
     overflow: hidden;
     background-image: url("san\ diego\ skyline.jpg");
     background-size: contain;
+    display: flex;
+    flex-direction: row;
 }
