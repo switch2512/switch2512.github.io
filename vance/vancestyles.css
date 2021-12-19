@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    margin: auto;
+}
+
+button {
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
+}

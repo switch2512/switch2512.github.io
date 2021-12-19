@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vance's Fan Page</title>
+    <link rel='stylesheet' href='vancestyles.css'>
+</head>
+<body>
+    <div id='main'>
+        <h1>VANCE'S FAN PAGE</h1>
+        <img id='picture' src='1.jpg'>
+        <script>
+            
+            function changePic() {
+                let random = (Math.floor(Math.random()*5)+1) + ".jpg"
+                document.getElementById("picture").src = random
+            }
+        </script>
+        <button id='button1' onclick='changePic()'>Click if you adore Vance Byrd Noel</button>
+    </div>
+</body>
+</html>
