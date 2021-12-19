@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 header {
     background-color: #CCBBB0;
 }
@@ -22,18 +27,13 @@ header {
     outline-offset: -7px;
     background-image: url(Linkedin\ Profile.jfif);
     background-size: contain;
-
-}
-
-.profile:hover {
-    background-image: url(linkedin-logo.png), url(Linkedin\ Profile.jfif);
 }
 
 h1 {
     color: white;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 100px;
+    font-size: 4rem;
     margin-top: 2%;
 }
 
