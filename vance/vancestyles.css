@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+html {
+    color: white;
+    background: black;
+}
+
 #main {
     display: flex;
     flex-direction: column;
