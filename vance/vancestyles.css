@@ -24,3 +24,7 @@ button {
     margin: auto;
     margin-top: 25px;
 }
+
+#reverse {
+    transform: scaleX(-1);
+}
