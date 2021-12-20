@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    color: white;
+    background: black;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    height: 30vw;
+    margin: auto;
+}
+
+button {
+    width: 100px;
+    margin: auto;
+    margin-top: 25px;
+}

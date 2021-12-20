@@ -3,20 +3,36 @@
     padding: 0px;
 }
 
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    color: coral;
+}
+
 header {
-    background-image: url(https://cdn.abcotvs.com/dip/images/3822653_072518-cc-ss-beach-water-img.jpg?w=1600);
-    background-size: cover;
-    overflow: hidden;
+    background: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/altocumulus.jpg);
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    border-radius: 50%;
     height: 200px;
+    width: 200px;
+    margin-top: 2%;
+    outline: 7px solid rgba(255,255,255, .5);
+    outline-offset: -7px;
+    background-image: url(Linkedin\ Profile.jfif);
+    background-size: contain;
 }
 
 h1 {
-    color: white;
     text-transform: uppercase;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 100px;
-    position: relative;
-	text-align: center;
+    font-size: 4rem;
+    color: white;
 }
 
 .nav {
@@ -25,6 +41,8 @@ h1 {
     background-size: contain;
     opacity: .80;
 	margin-top: 19.2px;
+    position: sticky;
+    top: 0px;
 }
 
 .nav a {
@@ -41,39 +59,23 @@ h1 {
     color: white;
 }
 
-h2 {
-    margin: 1em;
+p {
+    height: 1000px;
 }
 
-.gridWrapper * {
-    margin: 5%;
-    outline: 5px solid burlywood;
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.gridWrapper {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 250px;
-    place-items: center;
-}
-
-.gridPics {
-    height: 100%;
-    margin: 0px;
-    
-    
-}
-
-.gridTextBox {
-    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/san-diego-skyline-s-greg-panosian.jpg");
-    margin: 0px;
-    height: 100%
-}
-
-.gridText {
-    background: rgba(255, 255, 255, 0.75);
-    height: 59%;
-    padding: .5em;
-    top: 50%;
-    font-size: 1.5vw;
+footer img {
+    height: 15px;
 }
