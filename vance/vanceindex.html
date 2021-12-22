@@ -12,14 +12,14 @@
         <h1>VANCE'S FAN PAGE</h1>
         <h2>$500/hour</h2>
         <div class='container'>
-            <img src="Cupid.png">
+            <img class="cupid" src="Cupid.png">
             <img id='picture' src='1.jpg'>
-            <img id="reverse"src="Cupid.png">
+            <img class="cupid" id="reverse"src="Cupid.png">
         </div>
         <script>
             
             function changePic() {
-                let random = (Math.floor(Math.random()*5)+1) + ".jpg"
+                let random = (Math.floor(Math.random()*6)+1) + ".jpg"
                 document.getElementById("picture").src = random
             }
         </script>
