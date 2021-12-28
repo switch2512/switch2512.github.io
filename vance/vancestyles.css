@@ -28,3 +28,8 @@ button {
 #reverse {
     transform: scaleX(-1);
 }
+
+.cupid {
+    width: 10%;
+    height: auto;
+}
