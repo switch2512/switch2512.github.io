@@ -31,15 +31,71 @@ let test = {
     run: function(num) {
         runTimes = num;
         while (runTimes != 0) {
-            this.field[0][9] = 0;
-            let x = 10;
+            this.field[0][10] = 0;
             let y = 0;
-            if (y === 9) {
-                runTimes -= 1;
-            } else if ()
+            let x = 10;
+            while (test.field[y+1][x-1] === '░' || test.field[y+1][x+1] === '░') {
+                if (test.field[y+1][x-1] === '░' && test.field[y+1][x+1] === '0') {
+                    test.field[y][x] = '░';
+                    x -= 1;
+                    y += 1;
+                    test.field[y][x] = 0
+                    test.printField()
+                    console.log(' ')
+                    if (y === 9) {
+                        break;
+                    } else {
+                        continue;
+                    }
+                } else if (test.field[y+1][x-1] === '0' && test.field[y+1][x+1] === '░') {
+                    test.field[y][x] = '░';
+                    x += 1;
+                    y += 1;
+                    test.field[y][x] = 0;
+                    console.log(' ')
+                    test.printField()
+                    if (y === 9) {
+                        break;
+                    } else {
+                        continue;
+                    }
+                } else {
+                    let result = this.chance();
+                    if (result === 'left') {
+                        test.field[y][x] = '░';
+                        x -= 1;
+                        y += 1;
+                        test.field[y][x] = 0;
+                        console.log(' ')
+                        test.printField()
+                        if (y === 9) {
+                            break;
+                        } else {
+                            continue;
+                        }
+                    } else {
+                        test.field[y][x] = '░';
+                        x += 1;
+                        y += 1;
+                        test.field[y][x] = 0;
+                        console.log(' ')
+                        test.printField()
+                        if (y === 9) {
+                            break;
+                        } else {
+                            continue;
+                        }
+                    }
+                }
+            }
+            console.log(' ')
+            test.printField()
+            runTimes -= 1;
+            }
+
         }
         
     }
-}
 
-test.printField()
+
+test.run(10)
