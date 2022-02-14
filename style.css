@@ -5,111 +5,74 @@
 
 html {
     font-family:Arial, Helvetica, sans-serif;
-    color: coral;
+    color: black;
 }
 
+
+/* HEADER SECTION */
 header {
-    background: url(https://img.freepik.com/free-vector/composed-particles-swirling-abstract-graphics-background-sense-science-technology_456031-105.jpg?size=626&ext=jpg);
-    background-size: cover;
-    background-position: 0% 75%;
-}
-
-.banner {
     display: flex;
-    flex-direction: row;
+    background-image: url(https://img.freepik.com/free-vector/composed-particles-swirling-abstract-graphics-background-sense-science-technology_456031-105.jpg?size=626&ext=jpg);
+    background-size: cover;
+    justify-content: center;
+    height: 12em;
+    width: 100%;
+    background-position: 0% 75%;
     align-items: center;
-    justify-content: space-around;
-    margin-right: 20%;
-    margin-left: 20%;
-}
 
-.profile {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    margin-top: 2%;
-    outline: 7px solid rgba(255,255,255, .5);
-    outline-offset: -7px;
-    background-image: url(Linkedin\ Profile.jfif);
-    background-size: contain;
 }
 
 h1 {
-    text-transform: uppercase;
-    font-size: 4rem;
     color: white;
-    margin-bottom: -3%;
-    text-align: center;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 2px black;
+    font-size: 5em;
+    margin: .25em;
+    padding: .75em
 }
 
-.nav {
-    background-color: black;
-    overflow: hidden;
-    background-size: contain;
-    opacity: .80;
-	margin-top: 19.2px;
-    position: sticky;
-    top: 0px;
+#profile {
+    height: 75%;
+    border-radius: 50%;
+    outline: 7px solid black;
+    offset: 7px;
 }
 
-.nav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+
+/* Body and Grid */
+.grid {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
 }
 
-.nav a:hover {
-    background-color: steelblue;
-    color: white;
-}
-
-#grid {
-    display: grid;
-    grid-template: repeat(3, 250px) / repeat(4, 1fr);
-    gap: 15px 0px;
-    margin: 15px;
+.gridItem {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 1%;
+    margin-bottom: 2.5%;
+    background-color: lightgray;
+    border-radius: 10%;
 }
 
-#aboutMeText {
-    grid-area: 1 / 1 / 2 / 4;
-    text-align: center;
-    padding: 25px;
-}
-
-#aboutMePic {
-    grid-area: 1 / 4 / 2 / 5;
-    display: flex;
-    justify-content: center;
-    align-self: normal;
-}
-
-#gridPic {
-    height: auto;
-    padding: 25px;
-}
-
-#background {
-    background-color: darkgray;
-    grid-area: 1 / 1 / 2 / 5;
-    height: 100%;
-    width: 100%;
-    border-radius: 25px;
+.image {
+    width: 90%;
+    height: 90%;
 }
 
 
 
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-}
 
-footer img {
-    height: 15px;
+
+/* footer */
+#secret {
+    height: 10px;
+    float: right;
 }
