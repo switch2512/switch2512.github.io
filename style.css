@@ -62,13 +62,35 @@ h1 {
 }
 
 .image {
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 60%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    border-radius: 10%;
 }
 
+a {
+    font-size: 2em;
+    transition: font-size 1s;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+a:visited {
+    text-decoration: none;
+    color: black;
+}
 
+.gridItem:hover a {
+    text-shadow: 5px 5px 5px gray;
+    font-size: 2.2em;
+}
 
+p {
+    padding: 5%;
+    text-align: center;
+    font-size: large;
+}
 
 
 /* footer */
