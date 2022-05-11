@@ -1,0 +1,109 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.navbar {
+    background-color: black;
+    width:100%;
+    height: 50px;
+}
+
+h1 {
+    color: white;
+}
+
+.checkbox {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lines > div {
+    width: 75%;
+    height: 3px;
+    background-color: black;
+    z-index: 2;
+    transition: all 1.5s ease;
+    position: relative;
+}
+
+.lines > div:before,
+.lines > div:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    transition: .5s;
+}
+
+.lines > div:after {
+    top: 10px;
+}
+
+.toggler {
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.toggler:checked + .menu-reveal {
+    left: 50px;
+}
+
+.toggler:checked ~ .lines > div {
+    transform: rotate(135deg)
+}
+
+.toggler:checked ~ .lines > div:before,
+.toggler:checked ~ .lines > div:after {
+    top: 0;
+    transform: rotate(90deg)
+}
+
+.menu-reveal {
+    display: flex;
+    position: absolute;
+    z-index: 0;
+    left: -184px;
+    top: 0;
+    transition: 1.5s;
+}
+
+.menu-reveal h1 {
+    margin-left: 20px;
+    line-height: 50px;
+}
+
+.menu-reveal img {
+    height: 40px;
+    transform: scaleX(-1);
+    margin-top: 10px;
+}
