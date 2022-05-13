@@ -67,7 +67,7 @@ h2 {
     height: 3px;
     background-color: white;
     z-index: 2;
-    transition: all 2s ease;
+    transition: all 1s ease;
     position: relative;
 }
 
@@ -116,9 +116,9 @@ h2 {
     display: flex;
     position: fixed;
     z-index: 0;
-    left: -680px;
+    left: -380px;
     top: 0;
-    transition: 2s;
+    transition: 1s;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -148,8 +148,7 @@ h2 {
 .menu-reveal img {
     height: 40px;
     transform: scaleX(-1);
-    margin-top: 5px;
-    margin-left: 75px;
+    margin-top: 5px; 
 }
 
 .splash-container {
@@ -157,7 +156,7 @@ h2 {
     top:0;
     left:0;
     width: 100vw;
-    height: 90vh;
+    height: 93vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -186,10 +185,10 @@ h2 {
     margin: 10px;
 }
 
-.splash-content h1 {
+h1 {
     color: white;
     font-weight: lighter;
-    font-size: 7rem;
+    font-size: 10vw;
 }
 
 .splash-content p {
@@ -200,12 +199,59 @@ h2 {
     line-height: 50px;
 }
 
-.all-posts-title {
-    color: white;
-    font-size: larger;
+.card-container {
+    position:relative;
+    left:0;
+    width: 90vw;
+    height: 93vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    top: 50px;
+    overflow: auto;
+    margin-left: 5vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.all-posts-content {
-    background-image: url(../pics/rotunda.jpg);
+.card-container a {
+    text-decoration: none;
+}
+
+.card:hover {
+    filter: brightness(125%);
+}
+
+.card {
     background-size:cover;
+    height: 22vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    filter: brightness(85%);
+    transition: .5s;
+}
+
+.card p {
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.6);
 }
