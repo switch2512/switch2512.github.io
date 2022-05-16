@@ -13,7 +13,7 @@
     position:fixed;
     overflow: hidden;
     object-fit: cover;
-    object-position: 0 100%;
+    object-position: 0 50%;
 }
 
 .navbar-background {
@@ -212,7 +212,7 @@ h1 {
     overflow: auto;
     margin-left: 5vw;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card-container a {
@@ -220,7 +220,7 @@ h1 {
 }
 
 .card:hover {
-    filter: brightness(125%);
+    filter: brightness(135%);
 }
 
 .card {
@@ -236,7 +236,7 @@ h1 {
     margin: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
-    filter: brightness(85%);
+    filter: brightness(95%);
     transition: .5s;
 }
 
