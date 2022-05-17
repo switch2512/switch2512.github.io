@@ -252,6 +252,24 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-page .card:hover {
+    filter: brightness(100%);
+}
+
+.gallery-page .card {
+    background-size: contain;
+}
+
+.horizontal {
+    width: 40vw;
+    height: 30vw;
+}
+
+.vertical {
+    height: 40vw;
+    width: 30vw;
 }
